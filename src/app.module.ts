@@ -3,13 +3,15 @@ import { CatsModule } from './cats/cats.module';
 import { CoreModule } from './core/core.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
+import { FavoritesModule } from './favorites/favorites.module';
 
 @Module({
   imports: [
     CoreModule, 
     CatsModule,
     AuthModule, 
-    UsersModule
+    UsersModule,
+    FavoritesModule
   ],
 })
 export class AppModule {}
