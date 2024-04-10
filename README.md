@@ -1,3 +1,51 @@
+## Requirement
+
+Objective:
+Develop a RESTful API for a cat adoption agency. The API will manage cat profiles, and user interactions.
+
+Key Features:
+• Cat Profiles: Create, read, update, and delete profiles for cats available for adoption.
+
+• User Authentication: Secure user registration and login functionality.
+
+• Favorites: Allow authenticated users to mark cats as favorites.
+
+Technical Specifications:
+
+• Implement TypeORM with a PostgreSQL database for data persistence.
+
+• Utilize Passport.js for user authentication with JWT tokens.
+
+• Apply class-validator and class-transformer for input validation and serialization.
+
+Endpoints to Implement:
+• POST /auth/register: Register a new user.
+
+• POST /auth/login: Authenticate a user and return a JWT.
+
+• GET /cats: Retrieve a list of all cats.
+
+• POST /cats: Create a new cat profile (admin only).
+
+• GET /cats/{id}: Retrieve a cat profile by ID.
+
+• PUT /cats/{id}: Update a cat profile by ID (admin only).
+
+• DELETE /cats/{id}: Delete a cat profile by ID (admin only).
+
+Submission Guidelines:
+• Push the code to your GitHub repository and send the link to us.
+
+• Include a README.md with setup instructions, how to run the application, and a summary of the technologies used.
+
+Evaluation Criteria:
+• Functionality: All endpoints work as expected and meet the requirements.
+
+• Code Quality: Clean, organized, and well-documented code.
+
+• Security: Proper implementation of authentication and authorization checks.
+
+• Testing: Unit and integration tests for key components and endpoints.
 
 ## Description
 
